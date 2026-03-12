@@ -26,10 +26,10 @@ echo "::endgroup::"
 echo "::group::Downloading latest ruleset_converter build"
 
 install_bromite_ruleset_converter() {
-    log "Downloading from latest Bromite release"
+    log "Downloading from latest Cromite release"
     rm -rf deps || true
     mkdir -p deps
-    wget -O "deps/ruleset_converter" "https://github.com/bromite/bromite/releases/latest/download/ruleset_converter"
+    wget -O "deps/ruleset_converter" "https://github.com/uazo/cromite/releases/latest/download/ruleset_converter"
 }
 
 install_selfbuilt_ruleset_converter() {
